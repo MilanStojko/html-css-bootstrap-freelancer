@@ -11,3 +11,28 @@
     background-color: #1abc9c;
     height: 400px;
 }
+.ms_img_container{
+    height: 250px;
+    border-radius: 15px;
+}
+.spacer{
+    margin-bottom: 20px;
+}
+.ms_red{
+    background-color: #ba4b63;
+}
+.ms_azzuro{
+    background-color: #1ea4b6;
+}
+.ms_nero{
+    background-color: #140f0f;
+}
+.ms_celeste{
+    background-color: #1c83c1;
+}
+.ms_blu{
+    background-color: #0e38b5;
+}
+.ms_rosa{
+    background-color: #ccb2a3;
+}
