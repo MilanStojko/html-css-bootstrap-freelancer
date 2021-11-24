@@ -4,12 +4,10 @@
     box-sizing: border-box;
 }
 .ms_nav_pers{
-    background-color: #2c3e50;
-    height: 100px;
+    background-color: #2c3e50 !important;
 }
 .ms_sec1_pers{
     background-color: #1abc9c;
-    height: 400px;
 }
 .ms_img_container{
     height: 250px;
@@ -18,24 +16,7 @@
 .spacer{
     margin-bottom: 20px;
 }
-.ms_red{
-    background-color: #ba4b63;
-}
-.ms_azzuro{
-    background-color: #1ea4b6;
-}
-.ms_nero{
-    background-color: #140f0f;
-}
-.ms_celeste{
-    background-color: #1c83c1;
-}
-.ms_blu{
-    background-color: #0e38b5;
-}
-.ms_rosa{
-    background-color: #ccb2a3;
-}
+
 .ms_sec2_pers{
     width: 70%;
 }
@@ -50,4 +31,50 @@
 }
 .ms_footer .col div{
     padding: 20px;
+}
+.ms-white-hr:before {
+    content: "";
+    display: inline-block;
+    height: 3px;
+    width: 100px;
+    background-color: white;
+    margin-right: 10px;
+}
+.ms-white-hr:after {
+    content: "";
+    display: inline-block;
+    height: 3px;
+    width: 100px;
+    background-color: white;
+    margin-left: 10px;
+}
+.ms-black-hr > i,
+.ms-white-hr > i{
+    font-size: 2rem;
+}
+.ms_sizing_img{
+    max-width: 65%;
+}
+.ms-black-hr:before {
+    content: "";
+    display: inline-block;
+    height: 3px;
+    width: 100px;
+    background-color: black;
+    margin-right: 10px;
+}
+.ms-black-hr:after {
+    content: "";
+    display: inline-block;
+    height: 3px;
+    width: 100px;
+    background-color: black;
+    margin-left: 10px;
+}
+.ms_portfolio_img{
+    max-width: 100%;
+    border-radius: 15px;
+}
+.ms_bordo_white{
+    border:solid 1px white !important;
 }
